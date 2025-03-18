@@ -124,6 +124,9 @@
               "browserTarget": "frontend:build:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
